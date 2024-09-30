@@ -6,6 +6,5 @@ import (
 
 type Category struct {
 	gorm.Model
-	Name     string
-	Products []Product
+	Name string
 }

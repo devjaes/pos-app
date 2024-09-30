@@ -11,7 +11,5 @@ type Product struct {
 	Price       float64
 	Stock       int
 	CategoryID  uint
-	Category    Category
 	SupplierID  uint
-	Supplier    Supplier
 }
